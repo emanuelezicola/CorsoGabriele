@@ -1,4 +1,6 @@
-package it.zoo.corsogabriele.core;
+package it.zoo.corsogabriele.core.leone;
+
+import it.zoo.corsogabriele.core.Animale;
 
 public class Leone extends Animale {
 
