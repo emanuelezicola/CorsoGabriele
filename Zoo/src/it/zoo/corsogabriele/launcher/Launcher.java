@@ -26,6 +26,16 @@ public class Launcher {
         esseriViventi.add(new Cane());
         esseriViventi.add(new Umano("M", 23, "CiccioGamer89"));
 
+
+        System.out.println("\nPrima dell'ordinamento");
+        //Per ogni animale lo stampo invocando automaticamente il toString definito nella classe Animale.
+        animali.forEach(System.out::println);
+
+        System.out.println("\nDopo l'ordinamento");
+        animali.sort(Animale::compareTo);
+        animali.forEach(System.out::println);
+
+
     }
 
 
